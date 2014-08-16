@@ -172,7 +172,7 @@ app.run(['$rootScope', '$injector', '$compile', '$route', '$routeParams', '$loca
 {
   // This is the web client
   $rootScope.client = 'web';
-  $rootScope.productName = 'Ripple Trade';
+  $rootScope.productName = 'resilience.me';
 
   // Global reference for debugging only (!)
   if ("object" === typeof rippleclient) {
