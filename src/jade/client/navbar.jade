@@ -18,7 +18,8 @@ nav.navbar(role="navigation", ng-controller="NavbarCtrl")
           li#nav-fund(ng-class="{active: $route.current.mainMenu == 'fund'}")
             a(href="#/fund", l10n) Fund
           li#nav-dividend(ng-class="{active: $route.current.mainMenu == 'dividend'}")
-            a(href="#/dividend", l10n) Dividend        ul.nav.navbar-nav.navbar-right
+            a(href="#/dividend", l10n) Dividend        
+        ul.nav.navbar-nav.navbar-right
           li.dropdown.balances-dropdown
             p.navbar-text(ng-show="!loadState.account", l10n) Loading your balance...
             a.dropdown-toggle(ng-show="loadState.account")
