@@ -160,7 +160,7 @@ app.run(['$rootScope', '$route', '$routeParams',
 {
   // This is the desktop client
   $rootScope.client = 'desktop';
-  $rootScope.productName = 'Ripple';
+  $rootScope.productName = 'resilience.me';
 
   // Global reference for debugging only (!)
   if ("object" === typeof rippleclient) {
