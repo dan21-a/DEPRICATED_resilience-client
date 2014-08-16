@@ -21,6 +21,10 @@
     span(l10n) Fund
   //- a.sub(href="#/withdraw", ng-class="{active: $route.current.tabName == 'withdraw'}", l10n) Withdraw
 
+  a.dividend(href="#/dividend", ng-class="{active: $route.current.tabName == 'dividend'}")
+    span.nav-icon.nav-icon-advanced
+    span(l10n) Dividend
+
   a.advanced(href="#/account", ng-class="{active: $route.current.tabName == 'account'}")
     span.nav-icon.nav-icon-advanced
     span(l10n) Account
