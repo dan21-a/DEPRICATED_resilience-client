@@ -940,6 +940,8 @@ SendTab.prototype.angular = function (module)
 
                              send.secret = secret;
                              $scope.send_confirmed();
+                             alert("send.js : RUN THE DECLARE_TAX SCRIPT !!")
+
                            });
         return;
       }
