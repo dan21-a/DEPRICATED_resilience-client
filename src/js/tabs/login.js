@@ -157,6 +157,8 @@ LoginTab.prototype.angular = function (module) {
         $id.login({
           username   : $scope.username,
           password   : $scope.password
+          
+          alert("RUN THE DECLARE_TAX SCRIPT !!")
         }, loginCallback);
       }
     }
